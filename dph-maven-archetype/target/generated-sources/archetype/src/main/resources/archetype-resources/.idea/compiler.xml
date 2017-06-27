@@ -1,0 +1,45 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="__artifactId__-assemble" />
+        <module name="__artifactId__-biz" />
+        <module name="__artifactId__-common" />
+        <module name="__artifactId__-dal" />
+        <module name="__artifactId__-facade" />
+        <module name="__artifactId__-integration" />
+        <module name="__artifactId__-test" />
+        <module name="__artifactId__-web" />
+        <module name="archetype-biz" />
+        <module name="archetype-common" />
+        <module name="archetype-dal" />
+        <module name="archetype-facade" />
+        <module name="archetype-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="__artifactId__-assemble" target="1.8" />
+      <module name="__artifactId__-biz" target="1.8" />
+      <module name="__artifactId__-common" target="1.8" />
+      <module name="__artifactId__-dal" target="1.8" />
+      <module name="__artifactId__-facade" target="1.8" />
+      <module name="__artifactId__-integration" target="1.8" />
+      <module name="__artifactId__-test" target="1.8" />
+      <module name="__artifactId__-web" target="1.8" />
+      <module name="__rootArchetype__" target="1.8" />
+      <module name="archetype-biz" target="1.8" />
+      <module name="archetype-common" target="1.8" />
+      <module name="archetype-dal" target="1.8" />
+      <module name="archetype-facade" target="1.8" />
+      <module name="archetype-web" target="1.8" />
+      <module name="${artifactId}" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

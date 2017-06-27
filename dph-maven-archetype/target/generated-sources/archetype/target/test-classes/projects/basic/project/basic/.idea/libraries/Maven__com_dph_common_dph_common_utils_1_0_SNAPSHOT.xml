@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.dph.common:dph-common-utils:0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dph/common/dph-common-utils/0.1-SNAPSHOT/dph-common-utils-1.0-20170614.095527-88.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dph/common/dph-common-utils/0.1-SNAPSHOT/dph-common-utils-1.0-20170614.095527-88-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dph/common/dph-common-utils/0.1-SNAPSHOT/dph-common-utils-1.0-20170614.095527-88-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

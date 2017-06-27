@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<H1>${symbol_dollar}{list.size()}</H1>
+<table>
+    <tr>
+        <td>name</td>
+    </tr>
+    ${symbol_pound}foreach(${symbol_dollar}data in ${symbol_dollar}{list})
+        <tr>
+            <td>${symbol_dollar}data</td>
+        </tr>
+    ${symbol_pound}end
+</table>

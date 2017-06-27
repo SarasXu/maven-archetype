@@ -1,0 +1,16 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<component name="libraryTable">
+  <library name="Maven: com.qiniu:qiniu-java-sdk:7.0.11">
+    <CLASSES>
+      <root url="jar://${symbol_dollar}MAVEN_REPOSITORY${symbol_dollar}/com/qiniu/qiniu-java-sdk/7.0.11/qiniu-java-sdk-7.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://${symbol_dollar}MAVEN_REPOSITORY${symbol_dollar}/com/qiniu/qiniu-java-sdk/7.0.11/qiniu-java-sdk-7.0.11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://${symbol_dollar}MAVEN_REPOSITORY${symbol_dollar}/com/qiniu/qiniu-java-sdk/7.0.11/qiniu-java-sdk-7.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

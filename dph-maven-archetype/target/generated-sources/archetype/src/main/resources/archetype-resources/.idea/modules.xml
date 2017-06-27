@@ -1,0 +1,19 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-assemble/__artifactId__-assemble.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-assemble/__artifactId__-assemble.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-biz/archetype-biz.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-biz/archetype-biz.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-common/archetype-common.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-common/archetype-common.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-dal/archetype-dal.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-dal/archetype-dal.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-facade/archetype-facade.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-facade/archetype-facade.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-integration/__artifactId__-integration.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-integration/__artifactId__-integration.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-test/__artifactId__-test.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-test/__artifactId__-test.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-web/archetype-web.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/__artifactId__-web/archetype-web.iml" />
+      <module fileurl="file://${symbol_dollar}PROJECT_DIR${symbol_dollar}/${artifactId}.iml" filepath="${symbol_dollar}PROJECT_DIR${symbol_dollar}/${artifactId}.iml" />
+    </modules>
+  </component>
+</project>
