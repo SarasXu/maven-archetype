@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dph.archetype</groupId>
+    <artifactId>dph-maven-archetype</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>__artifactId__-web</module>
+        <module>__artifactId__-common</module>
+        <module>__artifactId__-facade</module>
+        <module>__artifactId__-biz</module>
+        <module>__artifactId__-dal</module>
+        <module>__artifactId__-test</module>
+        <module>__artifactId__-integration</module>
+        <module>__artifactId__-assemble</module>
+    </modules>
+    <parent>
+        <groupId>com.dph.parent</groupId>
+        <artifactId>dph-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+    <dependencyManagement>
+        <dependencies>
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.2</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

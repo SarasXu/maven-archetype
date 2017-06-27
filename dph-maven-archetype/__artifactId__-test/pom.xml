@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dph-maven-archetype</artifactId>
+        <groupId>com.dph.archetype</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>__artifactId__-test</artifactId>
+
+    <properties>
+        <deploy.skip>true</deploy.skip>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.dph.archetype</groupId>
+            <artifactId>__artifactId__-assemble</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
