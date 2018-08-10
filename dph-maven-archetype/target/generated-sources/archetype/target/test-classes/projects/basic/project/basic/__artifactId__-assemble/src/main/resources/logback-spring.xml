@@ -1,66 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- 应用名和路径需要根据项目来更改-->
 <configuration debug="false">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
-    <property name="appName" value="finance"/>
+    <property name="appName" value="basic"/>
     <!-- 定义变量 -->
     <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{0}:%L%X{serialNo}- %msg%n"/>
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <!--<property name="LOG_HOME" value="/home" />-->
     <!-- 本地开发环境变量local 本地开发时不生成日志文件-->
-    <springProfile name="local">
-        <!-- show sql 目前只在本地开发环境打印，以后可根据需求在其他的环境中打出-->
-        <logger name="com.dph.finance.mapper" level="DEBUG"/>
-        <!--可根据自己开发需求是否生成日志文件，路径可能改-->
-        <!--windows-->
-        <!--<property name="LOG_HOME" value="D:/home/webService/log/${appName}"/>-->
-        <!--mac||linux-->
-        <property name="LOG_HOME" value="/Users/saras/webService/log/${appName}"/>
-    </springProfile>
-    <!-- 开发环境变量dev-->
-    <springProfile name="dev">
-        <property name="LOG_HOME" value="/home/webService/log/${appName}"/>
-    </springProfile>
-    <!-- 调试环境变量develop-->
-    <springProfile name="test">
-        <property name="LOG_HOME" value="/home/webService/log/${appName}"/>
-    </springProfile>
-    <!-- 预发布环境变量pre-->
-    <springProfile name="pre">
-        <property name="LOG_HOME" value="/home/webService/log/${appName}"/>
-    </springProfile>
-    <!-- 生成环境变量online-->
-    <springProfile name="online">
-        <property name="LOG_HOME" value="/home/webService/log/${appName}"/>
-    </springProfile>
-
-    <!--&lt;!&ndash; 彩色日志依赖的渲染类 &ndash;&gt;-->
-    <!--<conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />-->
-    <!--<conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />-->
-    <!--<conversionRule conversionWord="wEx" converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter" />-->
-    <!--&lt;!&ndash; 彩色日志格式 &ndash;&gt;-->
-    <!--<property name="CONSOLE_LOG_PATTERN" value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(-&#45;&#45;){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}" />-->
-    <!-- 控制台输出 -->
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <pattern>${pattern}</pattern>
-            <!--<charset>utf8</charset>-->
-        </encoder>
-    </appender>
-    <!--mac和windows下是输出到控制台，关闭原因：springBoot自己有日志输出，不过可根据自己需要开启-->
-    <!--<if condition='property("os.name").toUpperCase().contains("WINDOWS")||property("os.name").toUpperCase().contains("MAC")'>-->
-    <!--<then>-->
-    <!--<appender class="ch.qos.logback.core.ConsoleAppender" name="STDOUT">-->
-    <!--<encoder>-->
-    <!--<pattern>${pattern}</pattern>-->
-    <!--</encoder>-->
-    <!--</appender>-->
-    <!--<root>-->
-    <!--<appender-ref ref="STDOUT"/>-->
-    <!--</root>-->
-    <!--</then>-->
-    <!--</if>-->
+    <!--<springProfile name="local">-->
+    <!-- show sql 目前只在本地开发环境打印，以后可根据需求在其他的环境中打出-->
+    <if condition='!property("spring.profiles.active").equals("online")'>
+        <then>
+            <logger name="it.pkg.mapper" level="DEBUG"/>
+        </then>
+    </if>
+    <!--<logger name="com.dph.supply.mapper" level="DEBUG"/>-->
+    <!--可根据自己开发需求是否生成日志文件，路径可能改-->
+    <if condition='property("os.name").toUpperCase().contains("WINDOWS")'>
+        <then>
+            <property name="LOG_HOME" value="D:/home/webService/log/${appName}"/>
+        </then>
+    </if>
+    <if condition='property("os.name").toUpperCase().contains("MAC")'>
+        <then>
+            <property name="LOG_HOME" value="~/webService/log/${appName}"/>
+        </then>
+    </if>
+    <if condition='property("os.name").toUpperCase().contains("LINUX")'>
+        <then>
+            <property name="LOG_HOME" value="/home/webService/log/${appName}"/>
+        </then>
+    </if>
     <!-- ***************************************************************** -->
     <!-- info级别的日志appender,这里把所有日志都输出到一个文件，没有区分不同的业务类型 -->
     <!-- ***************************************************************** -->

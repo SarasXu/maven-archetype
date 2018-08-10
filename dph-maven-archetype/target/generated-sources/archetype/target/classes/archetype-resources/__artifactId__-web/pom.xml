@@ -8,14 +8,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>${artifactId}-web</artifactId>
+    <artifactId>${rootArtifactId}-web</artifactId>
     <properties>
         <deploy.skip>true</deploy.skip>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dph.${artifactId}</groupId>
-            <artifactId>${artifactId}-biz</artifactId>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-biz</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

@@ -13,17 +13,17 @@
     <packaging>jar</packaging>
     <properties>
         <deploy.skip>true</deploy.skip>
-        <start-class>com.dph.basic.Main</start-class>
+        <start-class>it.pkg.Main</start-class>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dph.basic</groupId>
+            <groupId>archetype.it</groupId>
             <artifactId>basic-web</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
     <build>
-        <finalName>finance</finalName>
+        <finalName>basic</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -45,7 +45,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <mainClass>com.dph.basic.Main</mainClass>
+                    <mainClass>it.pkg.Main</mainClass>
                 </configuration>
                 <executions>
                     <execution>

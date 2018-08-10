@@ -7,24 +7,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>${artifactId}-dal</artifactId>
+    <artifactId>${rootArtifactId}-dal</artifactId>
     <properties>
         <deploy.skip>true</deploy.skip>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dph.${artifactId}</groupId>
-            <artifactId>${artifactId}-common</artifactId>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-common</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.dph.${artifactId}</groupId>
-            <artifactId>${artifactId}-facade</artifactId>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-facade</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>
     <build>
-        <finalName>${artifactId}</finalName>
+        <finalName>${rootArtifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>

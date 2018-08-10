@@ -13,12 +13,12 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dph.basic</groupId>
+            <groupId>archetype.it</groupId>
             <artifactId>basic-dal</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.dph.basic</groupId>
+            <groupId>archetype.it</groupId>
             <artifactId>basic-integration</artifactId>
             <version>${project.parent.version}</version>
         </dependency>

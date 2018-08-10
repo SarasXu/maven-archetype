@@ -7,15 +7,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>${artifactId}-test</artifactId>
+    <artifactId>${rootArtifactId}-test</artifactId>
 
     <properties>
         <deploy.skip>true</deploy.skip>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dph.${artifactId}</groupId>
-            <artifactId>${artifactId}-assemble</artifactId>
+            <groupId>${groupId}</groupId>
+            <artifactId>${rootArtifactId}-assemble</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

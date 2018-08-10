@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>${artifactId}-facade</artifactId>
+    <artifactId>${rootArtifactId}-facade</artifactId>
 
 
 </project>
