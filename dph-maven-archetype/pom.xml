@@ -19,14 +19,11 @@
         <module>__artifactId__-assemble</module>
     </modules>
     <parent>
-        <groupId>com.dph.parent</groupId>
-        <artifactId>dph-parent</artifactId>
+        <groupId>com.dph.boot</groupId>
+        <artifactId>dph-stater-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/>
     </parent>
     <dependencyManagement>
-        <dependencies>
-        </dependencies>
     </dependencyManagement>
     <build>
         <pluginManagement>

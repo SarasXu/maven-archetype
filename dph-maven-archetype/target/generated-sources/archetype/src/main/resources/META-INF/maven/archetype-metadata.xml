@@ -48,12 +48,6 @@
             <include>**/*.java</include>
           </includes>
         </fileSet>
-        <fileSet encoding="UTF-8">
-          <directory>src/main/resources</directory>
-          <includes>
-            <include>**/*.factories</include>
-          </includes>
-        </fileSet>
       </fileSets>
     </module>
     <module id="${rootArtifactId}" dir="__artifactId__-facade" name="${rootArtifactId}">

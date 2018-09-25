@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.dph.temp.configuration.JDBCAutoConfiguration,\
-  com.dph.temp.configuration.MyBatisConfiguration

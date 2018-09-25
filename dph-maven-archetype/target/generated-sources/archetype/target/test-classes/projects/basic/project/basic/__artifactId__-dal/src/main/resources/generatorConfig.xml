@@ -17,9 +17,6 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://192.168.1.123:3316/dph_finance"
                         userId="cxztest" password="Cxztest2017!"/>
-        <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
-        <!--connectionURL="jdbc:mysql://127.0.0.1:3306/yjf_bail_sdev"-->
-        <!--userId="root" password=""/>-->
         <javaModelGenerator targetPackage="it.pkg.entity"
                             targetProject="src/main/java"/>
 

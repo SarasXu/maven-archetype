@@ -2,596 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ff565c-958c-49c0-99ff-884030da76da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ConfigProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/DruidProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/Env.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/EnvironmentHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/JDBCAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ThreadPoolConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/WebInterceptorConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/AbstractInterceptorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/WebInterceptorUrlConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/service/ServiceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/service/ServiceSectionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-assemble/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-assemble/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/ConfigProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/MyBatisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/MyBatisMapperScannerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/config/WebInterceptorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-online.properties" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-online.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_alibaba_druid_1_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_alibaba_fastjson_1_2_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_dph_common_dph_common_utils_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_dph_dubbo_dph_dubbo_starter_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_codehaus_janino_janino_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_json_json_20140107.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_20_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/__artifactId__-assemble.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/__artifactId__-biz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/__artifactId__-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/base/PageOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/base/PageQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/base/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/ConfigProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/MyBatisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/MyBatisMapperScannerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/config/WebInterceptorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/__artifactId__-dal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-facade/__artifactId__-facade.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-facade/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-facade/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/__artifactId__-integration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/__artifactId__-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/src/test/java/base/AppTestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/src/test/java/base/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/__artifactId__-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-online.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/static/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/templates/hello.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/archetype.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/goal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/META-INF/maven/archetype-metadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_alibaba_druid_1_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_alibaba_fastjson_1_2_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_dph_common_dph_common_utils_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_dph_dubbo_dph_dubbo_starter_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_codehaus_janino_janino_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_json_json_20140107.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_20_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-assemble/__artifactId__-assemble.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-assemble/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-assemble/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-biz/__artifactId__-biz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-biz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-biz/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/__artifactId__-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/base/PageOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/base/PageQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/base/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/ConfigProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/MyBatisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/MyBatisMapperScannerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-common/src/main/java/config/WebInterceptorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-dal/__artifactId__-dal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-dal/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-dal/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-dal/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-facade/__artifactId__-facade.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-facade/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-facade/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-integration/__artifactId__-integration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-integration/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-integration/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-test/__artifactId__-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-test/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-test/src/test/java/base/AppTestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-test/src/test/java/base/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/__artifactId__-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/java/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/config/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/config/application-local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/config/application-online.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/config/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/static/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__-web/src/main/resources/templates/hello.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/basic-archetype-0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/archetype.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/goal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_alibaba_druid_1_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_alibaba_fastjson_1_2_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_dph_common_dph_common_utils_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_dph_dubbo_dph_dubbo_starter_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_0_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_6_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_rabbitmq_http_client_1_0_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_codehaus_janino_janino_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_json_json_20140107.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_6_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_20_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__oro_oro_2_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-assemble/basic-assemble.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-assemble/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-assemble/src/main/java/it/pkg/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-assemble/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-biz/basic-biz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-biz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-biz/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/basic-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/base/PageOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/base/PageQuery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/base/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/ConfigProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/MyBatisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/MyBatisMapperScannerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/ThreadPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-common/src/main/java/it/pkg/config/WebInterceptorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-dal/basic-dal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-dal/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-dal/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-dal/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-facade/basic-facade.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-facade/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-facade/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-integration/basic-integration.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-integration/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-integration/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-test/basic-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-test/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-test/src/test/java/it/pkg/base/AppTestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-test/src/test/java/it/pkg/base/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/basic-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/java/it/pkg/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/config/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/config/application-local.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/config/application-online.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/config/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/config/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/static/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/__artifactId__-web/src/main/resources/templates/hello.vm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/build.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/DruidProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/Env.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/EnvironmentHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/JDBCAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/MyBatisConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/SwaggerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/AbstractInterceptorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/WebInterceptorUrlConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__artifactId__-common/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/__artifactId__-test/target/" />
     <ignored path="$PROJECT_DIR$/__artifactId__-integration/target/" />
@@ -612,46 +33,136 @@
     <session id="1513906348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="factories" value="2" />
-          <entry key="java" value="15" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="15" />
+          <entry key="factories" value="4" />
+          <entry key="java" value="48" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="15" />
-          <entry key="spring.factories" value="2" />
+          <entry key="JAVA" value="48" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="57" />
+          <entry key="spring.factories" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="factories" value="7" />
-          <entry key="java" value="19" />
+          <entry key="factories" value="12" />
+          <entry key="java" value="41" />
           <entry key="properties" value="65" />
-          <entry key="xml" value="90" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="41" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="65" />
-          <entry key="XML" value="90" />
-          <entry key="spring.factories" value="7" />
+          <entry key="XML" value="137" />
+          <entry key="spring.factories" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/WebInterceptorConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="59" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/Env.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/DruidProperties.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -669,18 +180,24 @@
         <option value="$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application.properties" />
         <option value="$PROJECT_DIR$/__artifactId__-assemble/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/__artifactId__-common/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/service/ServiceSectionHandler.java" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-facade/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/pom.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/pom.xml" />
-        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/pom.xml" />
-        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml" />
-        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/WebInterceptorConfiguration.java" />
+        <option value="$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/WebInterceptorConfiguration.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+        <option value="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml" />
+        <option value="$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -693,15 +210,15 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="727" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -709,18 +226,99 @@
               <item name="basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-assemble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-assemble" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="__artifactId__-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533883800262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537844629166" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -801,30 +399,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533881068630</updated>
-      <workItem from="1533881071837" duration="2719000" />
+      <workItem from="1533881071837" duration="6150000" />
+      <workItem from="1537843743106" duration="850000" />
     </task>
+    <task id="LOCAL-00001" summary="新的架构上线">
+      <created>1533886929431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533886929431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2719000" />
+    <option name="totallyTimeSpent" value="7000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -832,86 +435,61 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32792208" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新的架构上线" />
+    <option name="LAST_COMMIT_MESSAGE" value="新的架构上线" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/EnvironmentHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/SwaggerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/DruidProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/JDBCAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ConfigProperty.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/WebInterceptorConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/Env.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ThreadPoolConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/MyBatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/AbstractInterceptorHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/interceptor/WebInterceptorUrlConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/service/ServiceHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/service/ServiceSectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application-online.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -933,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-assemble/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__artifactId__-web/src/main/resources/config/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -954,97 +525,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/src/main/java/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="180">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="49">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-facade/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-dal/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="465">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application-online.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/EnvironmentHolder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/WebInterceptorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/JDBCAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/MyBatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/base/PageOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/ThreadPoolConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/service/ServiceSectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/service/ServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/interceptor/WebInterceptorUrlConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/interceptor/AbstractInterceptorHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-assemble/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/pom.xml">
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/base/PageOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/base/PageQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/base/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ConfigProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/ThreadPoolConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/src/main/java/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="1800">
+          <caret line="120" column="33" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/Env.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/src/main/java/configuration/DruidProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/DruidProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-assemble/src/main/java/it/pkg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__artifactId__-common/src/main/java/it/pkg/configuration/WebInterceptorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-assemble/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="59" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>

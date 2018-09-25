@@ -1,9 +1,9 @@
 package com.dph.temp.configuration;
 
+import com.dph.common.utils.interceptor.AbstractInterceptorHandler;
 import com.dph.common.utils.interceptor.CrossDomainInterceptor;
 import com.dph.common.utils.interceptor.ParameterInformationInterceptor;
-import com.dph.sale.interceptor.AbstractInterceptorHandler;
-import com.dph.sale.interceptor.WebInterceptorUrlConfiguration;
+import com.dph.common.utils.interceptor.WebInterceptorUrlConfiguration;
 import org.assertj.core.util.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,7 +34,7 @@ public class WebInterceptorConfiguration extends WebMvcConfigurerAdapter impleme
     private List<AbstractInterceptorHandler> interceptors = Lists.newArrayList();
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet() {
         Map<String, AbstractInterceptorHandler> interceptorMap = this.applicationContext.getBeansOfType(AbstractInterceptorHandler.class);
         for (Map.Entry<String, AbstractInterceptorHandler> entry : interceptorMap.entrySet()) {
             interceptors.add(entry.getValue());
